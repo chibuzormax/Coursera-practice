@@ -2,33 +2,52 @@
 <html>
 <head>
 	<title>practice page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
-	body{background-color: purple;
-		color: white;
-		text-align: center;
+	*{
+		box-sizing: border-box;
 	}
-	h1{
+	
+	a:link, a:visited{
+		text-decoration: none;
+		background-color: purple;
+		border: 1px solid cyan;
+		color: cyan;
+	}
+	a:hover, a:active{
+		text-decoration: none;
 		background-color: white;
+		color: blue;
+		border: 1px solid blue;
+	}
+	article > p{
 		color: green;
-
+		font-style: italic;
+		font-size: 20px;
+		font-family: aerial;
+		font-weight: bold;
 	}
-	p{
-		color: white;
+	ul, ol{
+		text-align: left;
 	}
+	
 </style>
-<body >
-	<h1>coursera practice exercise</h1>
-	<h1>Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</h1>
+<body>
+	<h1><span class="span">coursera practice exercise</span></h1>
+	<h1><span class="span">Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</span></h1>
 
 <p>
-	<img src="rrgold.jpg" alt="Rolls Royce Ghost" width="400" height="250">
   &quot;It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory&nbsp;nor&nbsp;defeat.&quot;
 </p>
 <p>Theodor Roosevelt 1910 &copy; Copyright</p>
-<h1>Unordered lists</h1>
+<article>
+	<p>Nomatter how hard you try, &quot;YOU CAN'T KEEP A GOOD MAN DOWN&quot;</p>
+</article>
+<h1><span class="span">Unordered lists</span></h1>
 	<p>Various end devices used in networking</p>
-	<ul style="text-align: left;">
+<section>
+	<ul>
 		<li>computer</li>
 		<ul>
 			<li>Laptops</li>
@@ -41,9 +60,10 @@
 		<li>Servers</li>
 		<li>Wireless Telephones</li>
 	</ul>
-<h1>Ordered lists</h1>
+</section>
+<h1><span class="span">Ordered lists</span></h1>
 <p>Various end devices used in networking</p>
-	<ol style="text-align: left;">
+	<ol>
 		<li>computers</li>
 		<ol>
 			<li>Laptops</li>
@@ -59,7 +79,7 @@
 	</ol>
 <section>
 <p>You can add me up on facebook for more Tutorials!!
-	<a href="https://www.facebook.com/maximus.isaac.3" target="_blank" title="Follw me on facebook!!" style="color: cyan;">My Facebook page</a>
+	<a href="https://www.facebook.com/maximus.isaac.3" target="_blank" title="Follw me on facebook!!">My Facebook page</a>
 </p>
 </section>
 
